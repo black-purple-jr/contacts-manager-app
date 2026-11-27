@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        btnVoirContacts = findViewById(R.id.btnVoirContacts)
+
         btnVoirContacts.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
